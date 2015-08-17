@@ -1,0 +1,176 @@
+* + * {
+  margin-top: 1.6875em; }
+
+@font-face {
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 400;
+  src: url(http://fonts.gstatic.com/s/cardo/v8/WLga5RBcBwOgQwbtYXsULg.eot);
+  src: local('Cardo'), local('Cardo-Regular'), url(http://fonts.gstatic.com/s/cardo/v8/WLga5RBcBwOgQwbtYXsULg.eot) format('embedded-opentype'), url(http://fonts.gstatic.com/s/cardo/v8/zpisC4kGu76S5N9VhpMnEg.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 700;
+  src: url(http://fonts.gstatic.com/s/cardo/v8/0nnlDTzzEQXukObx6f9ifPesZW2xOQ-xsNqO47m55DA.eot);
+  src: local('Cardo Bold'), local('Cardo-Bold'), url(http://fonts.gstatic.com/s/cardo/v8/0nnlDTzzEQXukObx6f9ifPesZW2xOQ-xsNqO47m55DA.eot) format('embedded-opentype'), url(http://fonts.gstatic.com/s/cardo/v8/gHC1KgRPdVNdvvVcxLMCY_esZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Cardo';
+  font-style: italic;
+  font-weight: 400;
+  src: url(http://fonts.gstatic.com/s/cardo/v8/RxE5bFgPTBlMPY4Uzh64YQ.eot);
+  src: local('Cardo Italic'), local('Cardo-Italic'), url(http://fonts.gstatic.com/s/cardo/v8/RxE5bFgPTBlMPY4Uzh64YQ.eot) format('embedded-opentype'), url(http://fonts.gstatic.com/s/cardo/v8/0_g5QMQebQZw5ilITPZHDA.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  src: url(http://fonts.gstatic.com/s/merriweather/v8/RFda8w1V0eDZheqfcyQ4EHZ2MAKAc2x4R1uOSeegc5U.eot);
+  src: local('Merriweather'), url(http://fonts.gstatic.com/s/merriweather/v8/RFda8w1V0eDZheqfcyQ4EHZ2MAKAc2x4R1uOSeegc5U.eot) format('embedded-opentype'), url(http://fonts.gstatic.com/s/merriweather/v8/RFda8w1V0eDZheqfcyQ4EHhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  src: url(http://fonts.gstatic.com/s/merriweather/v8/ZvcMqxEwPfh2qDWBPxn6nmmsoyWrDyoltQVIP7q_RGg.eot);
+  src: local('Merriweather Bold'), local('Merriweather-Bold'), url(http://fonts.gstatic.com/s/merriweather/v8/ZvcMqxEwPfh2qDWBPxn6nmmsoyWrDyoltQVIP7q_RGg.eot) format('embedded-opentype'), url(http://fonts.gstatic.com/s/merriweather/v8/ZvcMqxEwPfh2qDWBPxn6nnl4twXkwp3_u9ZoePkT564.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  font-style: italic;
+  font-weight: 400;
+  src: url(http://fonts.gstatic.com/s/merriweather/v8/So5lHxHT37p2SS4-t60SlDoGYR7Z3iWH66EXnaJoKgg.eot);
+  src: local('Merriweather Italic'), local('Merriweather-Italic'), url(http://fonts.gstatic.com/s/merriweather/v8/So5lHxHT37p2SS4-t60SlDoGYR7Z3iWH66EXnaJoKgg.eot) format('embedded-opentype'), url(http://fonts.gstatic.com/s/merriweather/v8/So5lHxHT37p2SS4-t60SlHpumDtkw9GHrrDfd7ZnWpU.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  font-style: italic;
+  font-weight: 700;
+  src: url(http://fonts.gstatic.com/s/merriweather/v8/EYh7Vl4ywhowqULgRdYwICy7jlJQNiTiB3-MejPw_5E.eot);
+  src: local('Merriweather Bold Italic'), local('Merriweather-BoldItalic'), url(http://fonts.gstatic.com/s/merriweather/v8/EYh7Vl4ywhowqULgRdYwICy7jlJQNiTiB3-MejPw_5E.eot) format('embedded-opentype'), url(http://fonts.gstatic.com/s/merriweather/v8/EYh7Vl4ywhowqULgRdYwIL0qgHI2SEqiJszC-CVc3gY.woff) format('woff');
+}
+
+html {
+  color: rgb(7,54,66);
+  background-color: rgb(253,246,227); }
+
+body {
+  width: 90%;
+  max-width: 33rem;
+  margin: 0;
+  padding-right: 5%;
+  padding-left: 5%;
+  font: 16px/1.6875 Merriweather;
+}
+
+@media (min-width:66rem) {
+  body {
+    max-width: 66rem;
+    margin-left: 6rem;
+    padding: 0; }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700; }
+
+h1, h2, h3 {
+  font-family: Cardo; }
+
+h1, h2 {
+  max-width: 39rem;
+  line-height: 1.4; }
+
+h1 {
+  margin: 0;
+  font-size: 6rem; }
+
+h2 {
+  margin-bottom: 0;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 2.25rem; }
+
+h3 {
+  margin-bottom: 1.3157894737em;
+  border-bottom: 2px solid rgb(101,123,131);
+  font-size: 1.1875rem;
+  line-height: 1.4210526316; }
+
+h4, h5, h6 {
+  margin-bottom: 0; }
+
+h4 {
+  font-style: italic;
+  font-size: 1rem; }
+
+h5 {
+  margin-top: 2.0769230769em;
+  font-size: .8125rem;
+  line-height: 2.0769230769; }
+
+h6 {
+  margin-top: 2.4545454545em;
+  font-size: .6875rem;
+  line-height: 2.4545454545;
+  text-transform: uppercase; }
+
+p + h3 {
+  margin-top: 1.4210526316em; }
+
+@media (min-width:66rem) {
+  article {
+    -moz-columns: 2;
+    -webkit-columns: 2;
+    columns: 2;
+    -moz-column-gap: 3rem;
+    -webkit-column-gap: 3rem;
+    column-gap: 3rem; }
+}
+
+p {
+  margin: 0;
+  font-size: 1rem;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto; }
+
+p + p {
+  text-indent: 2em; }
+
+ol, ul, dl {
+  margin-bottom: 1.6875rem; }
+
+li + li, dt + dd {
+  margin-top: 0; }
+
+dd {
+  margin-left: 1.25rem;
+  border-left: 1px solid rgb(147,161,161);
+  padding-left: 1.25rem;
+}
+
+blockquote {
+  -moz-column-span: all;
+  -webkit-column-span: all;
+  column-span: all;
+  margin-bottom: 1.6875em;
+  border-left: 1px solid rgb(147,161,161);
+  padding-left: 2.5rem; }
+
+blockquote p {
+  font: italic 2.25rem Cardo; }
+
+abbr {
+  border-bottom: 0; }
+
+abbr:hover, abbr:focus {
+  cursor: help;
+  border-bottom: 1px solid rgb(147,161,161); }
